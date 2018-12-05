@@ -182,7 +182,8 @@ mark{
         justify-content: space-around;
         background-color: #4bcaff;
         color: #fff;
-        height: 500px;
+        padding-bottom: 50px;
+  /*      height: 500px;*/
     }
 
     .services-title{
@@ -416,6 +417,10 @@ footer span{
     padding: 0px;
     margin: 0px;
   }
+  .port ul li{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .kop{
     display: none;
   }
@@ -424,6 +429,8 @@ footer span{
     width: 100%;
     padding:0px;
     margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 30px;
     text-align: center;
     background-color: #515F67;
     color: white;
@@ -432,9 +439,15 @@ footer span{
     margin: 0;
     padding-bottom: 10px;
 }
+.default-section h2{
+    text-align: center;
+}
 .default-section h3{
     padding: 0px;
     margin: 0px;
+}
+.default-section img{
+    display: none;
 }
 
    .services-title{
@@ -465,6 +478,8 @@ footer span{
  display: block;
  width: 100%;
  padding: 0px;
+ padding-top: 30px ;
+ padding-bottom:50px;
  margin: 0px;
   color: white; 
  background-color: #4BCAFF; 
@@ -485,6 +500,8 @@ footer span{
   .plaatje2{
     display: block;
     padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
   .slogan{
     padding: 0 10px;
@@ -493,23 +510,25 @@ footer span{
     display: block;
     padding: 0px;
     text-align: center;
+    padding-bottom: 50px;   
   }
   .info{
     width: 100%;
   }
+  /*field to fill in*/
   .subject-text{
     height: 50px;
     width: 80%;
     padding: 0 10px;
   }
   .subject textarea{
-    width: 80%;
+    width: 88%;
   }
   .subject-text textarea{
-    width: 80%;
+    width: 100%;
   }
   .subject{
-    width: 80%;
+    width: 100%;
   }
   footer{
     display: block;
